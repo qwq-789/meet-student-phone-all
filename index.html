@@ -10,7 +10,7 @@
     <!-- header -->
     <header class="h-[40px] bg-[#b5d6d6] md:h-[52px]">
       <div
-        class="fixed z-[90] flex h-[40px] w-screen flex-row items-center bg-[#FDFDFD] md:hidden"
+        class="fixed z-[90] flex h-[40px] w-full flex-row items-center bg-[#FDFDFD] md:hidden"
       >
         <div id="bb" class="z-[98] ml-4 w-1/12">
           <img src="./img/burger.png" />
@@ -21,7 +21,7 @@
       </div>
       <div
         id="burger"
-        class="z-[83] w-screen -translate-y-72 text-center duration-500 md:translate-y-0 md:justify-center md:fixed md:bg-[#b5d6d6]"
+        class="z-[83] w-full -translate-y-72 text-center duration-500 md:translate-y-0 md:justify-center md:fixed md:bg-[#b5d6d6]"
       >
         <ul
           class="space-y-2 divide-y-2 divide-[rgb(168,168,168)] bg-[#fdfdfd] py-2 px-3 font-medium text-[#191919] md:inline-flex md:space-y-0 md:divide-y-0 md:bg-[#B5D6D6] md:px-0 md:pt-4 md:text-xl md:font-bold"
@@ -76,7 +76,8 @@
             ></iframe>
           </div>
           <h3
-            class="self-text-shadow pt-4 pb-3 text-center text-2xl font-bold drop-shadow-2xl md:text-4xl"
+            class="self-text-shadow pt-4 pb-3 text-center text-2xl font-bold drop-shadow-2xl md:text-4xl" style="text-shadow: 0.1em 0.3em 0.2em #1a1a1a3f;
+          "
           >
             2050的世界
           </h3>
@@ -126,7 +127,7 @@
               >柯⾦源導演</span
             >
           </p>
-          <img src="./img/our-island.png" alt="我們的島" class="" />
+          <img src="./img/our-island.jpg" alt="我們的島" class="" />
         </div>
 
         <div class="flex h-auto w-2/5 flex-col justify-end px-[10px] py-[10px]">
@@ -171,7 +172,7 @@
               href="https://www.flickr.com/photos/kechinyuan/albums"
               target="_blank"
               class="hover:text-3xl hover:text-[#B4AA7C] md:text-2xl"
-              >FLICKER</a
+              >FLICKR</a
             >
           </div>
         </div>
@@ -180,7 +181,7 @@
     <!-- 致青春 -->
     <div
       id="c"
-      class="relative h-[400px] w-screen bg-[#fdfdfd] p-6 md:mx-auto md:w-[70vw]"
+      class="relative h-[400px] w-full bg-[#fdfdfd] p-6 md:mx-auto md:w-[70vw]"
     >
       <div
         class="absolute right-6 z-[70] w-[50px] cursor-pointer md:w-[70px] md:translate-y-28 md:hover:w-[80px] md:hover:translate-y-[107px] md:hover:translate-x-[5px]"
@@ -215,12 +216,12 @@
       <div
         class="absolute right-5 bottom-2 w-[35vw] max-w-[160px] md:-left-10 md:bottom-6 md:w-[160px]"
       >
-        <img src="./img/pic4.png" alt="3個人" />
+        <img id="three-people" src="./img/pic4.png" alt="3個人" />
       </div>
       <!-- 燈箱開始 -->
       <div
         id="jumpout"
-        class="fixed top-0 left-0 z-[99] hidden h-screen w-screen bg-[#191919ce] p-10"
+        class="fixed top-0 left-0 z-[99] hidden h-full w-full bg-[#191919ce] p-10"
       >
         <p class="fixed top-1 right-1 text-xs text-slate-200">
           (點擊外圍即可關閉)
@@ -243,7 +244,7 @@
     </div>
     <!-- 導演的話 -->
     <div id="d">
-      <div class="relative w-screen bg-[#222228]">
+      <div class="relative w-full bg-[#222228]">
         <img
           class="absolute top-2 right-4 w-[60px] md:w-28"
           src=".\img\mark.png"
@@ -285,7 +286,7 @@
               class="cursor-pointer px-[15px] text-[12px] text-[#FDFDFD] hover:text-[#B4AA7C] md:px-10 md:text-xl hover:md:text-2xl"
               id="less"
             >
-              LESS...
+            <a href="#three-people">LESS...</a>
             </p>
           </div>
         </div>
@@ -301,7 +302,7 @@
       </div>
     </div>
     <!-- 活動專題 -->
-    <div id="f" class="relative w-screen h-[900px] sm:h-[1650px] md:h-[2300px] bg-[#fdfdfd]">
+    <div id="f" class="relative w-full h-[900px] sm:h-[1650px] md:h-[2300px] bg-[#fdfdfd]">
       <div
       class="absolute right-[20px] h-[900px] w-[230px] bg-[#B5D6D6] sm:right-[100px] sm:h-[1650px] sm:w-[350px] md:right-[150px] md:h-[2300px] md:w-[700px]"
     ></div>
@@ -336,7 +337,7 @@
         <!-- 燈箱1 -->
         <div
         id="jumpout-1"
-        class="fixed top-0 left-0 z-[99] hidden h-screen w-screen bg-[#191919ce] p-10 pb-14"
+        class="fixed top-0 left-0 z-[99] hidden h-full w-full bg-[#191919ce] p-10 pb-14"
       >
         <p class="fixed top-1 right-1 text-xs text-slate-200">
           (點擊外圍即可關閉)
@@ -414,7 +415,7 @@
         <!-- 燈箱2 -->
         <div
         id="jumpout-2"
-        class="fixed top-0 left-0 z-[99] hidden h-screen w-screen bg-[#191919ce] p-10 pb-14"
+        class="fixed top-0 left-0 z-[99] hidden h-full w-full bg-[#191919ce] p-10 pb-14"
       >
         <p class="fixed top-1 right-1 text-xs text-slate-200">
           (點擊外圍即可關閉)
@@ -489,7 +490,7 @@
         <!-- 燈箱3 -->
         <div
         id="jumpout-3"
-        class="fixed top-0 left-0 z-[99] hidden h-screen w-screen bg-[#191919ce] p-10 pb-14"
+        class="fixed top-0 left-0 z-[99] hidden h-full w-full bg-[#191919ce] p-10 pb-14"
       >
         <p class="fixed top-1 right-1 text-xs text-slate-200">
           (點擊外圍即可關閉)
@@ -528,7 +529,7 @@
     </div>
     <!-- 活動心得 -->
     <div id="g" class="relative">
-      <div class="h-full w-full bg-[#FDFDFD] md:h-full ">
+      <div id="bg-1" class="h-full w-full bg-[#FDFDFD] md:h-full ">
         <div class="flex justify-center">
           <div class="">
             <div class="relative grid w-4/5">
@@ -538,7 +539,11 @@
                 活動心得
               </p>
               <div
-                class="my-self-black mt-[26px] h-[10px] sm:h-[15px] md:mt-[50px] md:h-[20px]"
+                class=" mt-[26px] h-[10px] sm:h-[15px] md:mt-[50px] md:h-[20px]" style="background: linear-gradient(
+                  89.95deg,
+                  #222228 60.05%,
+                  rgba(34, 34, 40, 0) 136.73%
+                );"
               ></div>
             </div>
             <div class="flex w-4/5 flex-row justify-between">
@@ -572,14 +577,14 @@
                   <p
                     id="less1"
                     class="hidden mt-1 mb-[4.25px]  cursor-pointer text-[2vw] hover:text-[3vw] hover:text-[#B4AA7C]"
-                    >LESS...
+                    ><a href="#bg-1">LESS...</a>
                   </p>
                 </p>
               </div>
               <div class="flex w-1/2 flex-col justify-center py-6 pl-2 md:w-72">
                 <div class="">
                   <img
-                    src="./img/small chili.jpeg"
+                    src="./img/small chili.jpg"
                     alt="樓子榕照片"
                     class="h-auto w-full"
                   />
@@ -594,11 +599,11 @@
           </div>
         </div>
       </div>
-      <div class="h-full w-full bg-[#B5D6D6] p-1 md:flex md:items-center">
+      <div id="bg-2" class="h-full w-full bg-[#B5D6D6] p-1 md:flex md:items-center">
         <div class="flex w-5/6 flex-row justify-evenly p-[24px] py-3">
           <div class="">
             <img
-              src="./img/Qiu Wei brother.jpeg"
+              src="./img/Qiu Wei brother.jpg"
               alt="邱哥圖"
               class="block h-auto w-[120px] sm:w-[150px] md:w-[200px] lg:w-[250px] xl:w-[300px] 2xl:w-[350px]"
             />
@@ -641,14 +646,14 @@
               <p
                 id="less2"
                 class="hidden mt-1 mb-[4.25px]  cursor-pointer text-[2vw] hover:text-[3vw] hover:text-[#B4AA7C]"
-                >LESS...
+                ><a href="#bg-1">LESS...</a>
               </p>
             </p>
           </div>
         </div>
       </div>
   
-      <div class="flex h-full w-full justify-center bg-[#FDFDFD] p-[10px]">
+      <div id="bg-3" class="flex h-full w-full justify-center bg-[#FDFDFD] p-[10px]">
         <div class="relative mt-3 mb-3 flex w-3/6 flex-col justify-center">
           <img
             src="./img/white chocolate-bg.jpeg"
@@ -656,7 +661,7 @@
             class="absolute w-10/12 2xl:w-[600px]"
           />
           <img
-            src="./img/white chocolate.jpeg"
+            src="./img/white chocolate-待修剪.jpg"
             alt=""
             class="absolute mt-[30px] ml-[20px] w-10/12 2xl:w-[600px]"
           />
@@ -688,12 +693,12 @@
             <p
               id="less3"
               class="hidden mt-1 mb-[4.25px]  cursor-pointer text-[2vw] hover:text-[3vw] hover:text-[#B4AA7C]"
-              >LESS...
+              ><a href="#bg-2">LESS...</a>
             </p>
           </p>
         </div>
       </div>
-      <div class="h-full w-full bg-[#B5D6D6] py-[10px]">
+      <div id="bg-4" class="h-full w-full bg-[#B5D6D6] py-[10px]">
         <div class="flex flex-row justify-between">
           <div class="flex flex-row justify-evenly">
             <div
@@ -705,7 +710,6 @@
           </div>
           <div class="flex w-9/12 flex-col justify-center">
             <div class="ml-[5px] mt-[20px] bg-[#FDFDFD] p-[10px] md:mx-[6vw]">
-              <!--這塊會爆掉，還沒鎖md位置-->
               <p class="">
                 <span
                   class="block text-[18px] font-semibold text-[#191919] md:text-[3vw]"
@@ -733,21 +737,21 @@
                 <p
                 id="less4"
                 class="hidden mt-1 mb-[4.25px]  cursor-pointer text-[2vw] hover:text-[3vw] hover:text-[#B4AA7C]"
-                >LESS...
+                ><a href="#bg-3">LESS...</a>
                 </p>
               </p>
             </div>
           </div>
           <div class="mr-1/12 flex w-2/5 flex-col justify-start px-3">
             <img
-              src="./img/president.jpeg"
+              src="./img/president.jpg"
               alt="社長"
               class="h-auto w-full sm:w-[150px] md:w-[250px]"
             />
           </div>
         </div>
       </div>
-      <div class="h-full w-full bg-[#FDFDFD]">
+      <div id="bg-5" class= "h-full w-full bg-[#FDFDFD]">
         <div class="px-[25px] py-[15px]">
           <p class="">
             <span class="block text-[10px] text-[#191919] md:text-[2vw]"
@@ -778,7 +782,7 @@
             <p
               id="less5"
               class="hidden mt-1 mb-[4.25px]  cursor-pointer text-[2vw] hover:text-[3vw] hover:text-[#B4AA7C]"
-              >LESS...
+              ><a href="#bg-4">LESS...</a>
             </p>
           </p>
         </div>
@@ -802,14 +806,14 @@
           </div>
           <div class="w-1/2">
             <img
-              src="./img/Liu Mingxun.png"
+              src="./img/Liu Mingxun.jpg"
               alt="劉明勳"
               class="block h-auto w-[180px] md:w-[430px] 2xl:-mt-16"
             />
           </div>
         </div>
       </div>
-      <div
+      <div id="bg-6"
         class="flex h-full w-full flex-row justify-end bg-[#B5D6D6] px-[5px] py-[5px]"
       >
         <div class="flex flex-col justify-center md:justify-evenly">
@@ -818,7 +822,7 @@
               <img
                 src="./img/small-sister.png"
                 alt="少彤姊姊"
-                class="w-[150px] md:w-full lg:w-[300px] xl:w-[300px] 2xl:w-[350px]"
+                class="w-[150px] md:w-[300px] lg:w-[300px] xl:w-[300px] 2xl:w-[350px]"
               />
             </div>
             <div class="flex flex-col justify-center">
@@ -843,16 +847,16 @@
                 </p>
               </div>
             </div>
-          </div>
-          <div
-            class="absolute left-0 mb-64 w-2/12 pl-[10px] md:mb-96 lg:ml-[20px] lg:w-[600px] xl:mb-[460px]"
-          >
-            <img
+            <div
+            class="absolute left-0 -mt-[100px] w-2/12 pl-[10px] md:-mt-[230px] lg:ml-[20px] lg:w-[600px] xl:mb-[460px]"
+            >
+              <img
               src="./img/imagine.jpg"
               alt="#imagine"
               class="w-[30px] md:w-[70px]"
             />
-          </div>
+            </div>
+        </div>
           <div class="">
             <p class="">
               <span class="block text-[10px] text-[#191919] md:text-[2vw]"
@@ -876,22 +880,22 @@
               <p
               id="less6"
               class="hidden mt-1 mb-[4.25px]  cursor-pointer text-[2vw] hover:text-[3vw] hover:text-[#B4AA7C]"
-              >LESS...
+              ><a href="#bg-5">LESS...</a>
             </p>
             </p>
           </div>
         </div>
       </div>
   
-      <div class="flex h-full w-full flex-row justify-center bg-[#FDFDFD]">
-        <div class="relative w-1/3">
+      <div id="bg-7" class="flex h-full w-full flex-row justify-center bg-[#FDFDFD]">
+        <div class="relative w-1/3 ">
           <img
-            src="./img/cotton sister.jpeg"
+            src="./img/cotton sister.jpg"
             alt="—棉棉姊姊-1"
-            class="absolute m-5 w-1/2 sm:left-3 md:h-auto md:w-[200px]"
+            class="absolute  m-5 w-1/2 sm:left-3 md:h-auto md:w-[180px]"
           />
           <img
-            src="./img/cotton sister-2.jpeg"
+            src="./img/cotton sister-2.jpg"
             alt="—棉棉姊姊-2"
             class="absolute bottom-2 left-[30px] w-1/2 sm:left-[100px] md:left-[120px] lg:left-[150px]"
           />
@@ -935,12 +939,12 @@
             <p
               id="less7"
               class="hidden mt-1 mb-[4.25px]  cursor-pointer text-[2vw] hover:text-[3vw] hover:text-[#B4AA7C]"
-              >LESS...
+              ><a href="#bg-6">LESS...</a>
             </p>
           </p>
         </div>
       </div>
-      <div class="flex h-full w-full flex-row justify-between bg-[#B5D6D6]">
+      <div id="bg-8" class="flex h-full w-full flex-row justify-between bg-[#B5D6D6]">
         <div class="flex w-3/5 flex-col px-5 pt-5">
           <p class="">
             <span
@@ -970,7 +974,7 @@
             <p
               id="less8"
               class="hidden mt-1 mb-[4.25px]  cursor-pointer text-[2vw] hover:text-[3vw] hover:text-[#B4AA7C]"
-              >LESS...
+              ><a href="#bg-7">LESS...</a>
             </p>
           </p>
         </div>
@@ -981,9 +985,9 @@
             class="absolute bottom-2 right-2 w-5/6 sm:w-[180px] md:bottom-9 md:right-9 md:w-[220px] lg:w-[300px] xl:w-[400px]"
           />
           <img
-            src="./img/Zhang Zixuan.jpeg"
+            src="./img/Zhang Zixuan.jpg"
             alt="張子瑄"
-            class="absolute bottom-5 right-5 w-5/6 sm:w-[180px] md:bottom-16 md:right-16 md:w-[220px] lg:w-[300px] xl:w-[400px]"
+            class="absolute bottom-8 right-5 w-5/6 sm:w-[180px] md:bottom-[75px] md:right-16 md:w-[220px] lg:w-[300px] xl:w-[400px]"
           />
           <img
             src="./img/three line.png"
@@ -992,9 +996,9 @@
           />
         </div>
       </div>
-      <div class="relative h-full w-full bg-[#FDFDFD] px-[15px] py-[5px]">
+      <div id="bg-9" class="relative h-full w-full bg-[#FDFDFD] px-[15px] py-[5px]">
         <div class="md:px-[50px]">
-          <p class="">
+          <p  class="">
             <span
               class="block text-center text-[18px] font-semibold text-[#191919] md:text-[3vw]"
               >陳晉老師
@@ -1022,23 +1026,24 @@
             <p
               id="less9"
               class="hidden mt-1 mb-[4.25px]  cursor-pointer text-[2vw] hover:text-[3vw] hover:text-[#B4AA7C]"
-              >LESS...
+              ><a href="#bg-8">LESS...</a>
             </p>
+            
           </p>
         </div>
         <div class="flex flex-row justify-evenly pb-[30px]">
           <div class="pr-2">
             <img
-              src="./img/handsome-teacher-1.png"
+              src="./img/handsome-teacher-1.jpg"
               alt="陳晉老師-1"
-              class="w-[150px] sm:w-[190px] md:mt-5 md:w-auto xl:-mt-20"
+              class="w-[150px] sm:w-[190px] md:mt-5 md:w-[310px] xl:-mt-25"
             />
           </div>
           <div class="pl-2">
             <img
-              src="./img/handsome-teacher-2.png"
+              src="./img/handsome-teacher-2.jpg"
               alt="陳晉老師-2"
-              class="w-[173px] sm:w-[220px] md:mt-5 md:w-auto xl:-mt-20"
+              class="w-[150px] sm:w-[190px] md:mt-5 md:w-[310px] xl:-mt-25"
             />
           </div>
         </div>
@@ -1053,7 +1058,7 @@
         </div>
       </div>
   
-      <div
+      <div id="bg-10"
         class="flex h-full w-full flex-row justify-evenly bg-[#B5D6D6] p-[20px]"
       >
         <div class="flex w-1/2 flex-col">
@@ -1088,7 +1093,7 @@
             <p
               id="less10"
               class="hidden mt-1 mb-[4.25px]  cursor-pointer text-[2vw] hover:text-[3vw] hover:text-[#B4AA7C]"
-              >LESS...
+              ><a href="#bg-9">LESS...</a>
             </p>
           </p>
         </div>
@@ -1096,12 +1101,12 @@
           <img
             src="./img/LIN leader -bg.png"
             alt="宏修組長背景"
-            class="absolute right-0 bottom-[55px] w-[80px] sm:bottom-[45px] sm:w-[170px] md:bottom-5 md:w-[180px]"
+            class="absolute right-0 bottom-[55px] w-[80px] sm:bottom-[45px] sm:w-[130px] md:bottom-5 md:w-[180px]"
           />
           <img
-            src="./img/lin leader.jpeg"
+            src="./img/lin leader.jpg"
             alt="宏修組長"
-            class="absolute right-2 top-4 w-[120px] sm:w-[160px] md:right-5 md:top-2 md:w-[250px]"
+            class="absolute right-2 top-4 w-[120px] sm:top-[20px] sm:w-[160px] md:right-5 md:top-2 md:w-[250px]"
           />
         </div>
       </div>
@@ -1109,7 +1114,7 @@
     <!-- 合作團隊 -->
     <div
       id="h"
-      class="relative mx-auto flex w-screen flex-col bg-[#222228] md:w-[80vw] md:flex-row"
+      class="relative mx-auto flex w-full flex-col bg-[#222228] md:w-[80vw] md:flex-row"
     >
       <div
         class="absolute hidden w-full cursor-default justify-evenly text-center font-semibold text-[#B4AA7C] md:flex md:flex-row md:pt-10 md:text-4xl"
@@ -1342,23 +1347,26 @@
     </div>
     <!-- 特別感謝 -->
     <div id="g">
-      <div class="relative h-[90px] w-screen bg-[#fdfdfd] md:h-28">
+      <div class="relative h-[90px] w-full bg-[#fdfdfd] md:h-28">
         <div
         class="absolute right-[20px] top-[14px] h-auto w-[170px] bg-[#222228] p-2 md:right-10 md:w-64 md:p-4 md:text-2xl"
       >
         <p class="text-center text-[#FDFDFD]">ＦＯＬＬＯＷ ＵＳ</p>
         <div class="md:space-y-2">
           <a
+            target="_blank"
             href="https://www.instagram.com/fhic_2nd/"
             class="flex justify-center text-[#B4AA7C]"
             >@fhic_2nd
           </a>
           <a
+            target="_blank"
             href="https://www.instagram.com/fhmg__/"
             class="flex justify-center text-[#B4AA7C]"
             >@fhmg__
           </a>
           <a
+            target="_blank"
             href="https://www.instagram.com/fhsh___94877/"
             class="flex justify-center text-[#B4AA7C]"
             >@fhsh___94877
@@ -1367,7 +1375,7 @@
         </div>
       </div>
       
-      <div class="h-auto w-screen space-y-5 bg-[#B5D6D6] px-[10px] py-5">
+      <div class="h-auto w-full space-y-5 bg-[#B5D6D6] px-[10px] py-5">
         <p class="text-xl font-semibold text-[#191919] md:px-10 md:text-3xl">
           主辦單位/
         </p>

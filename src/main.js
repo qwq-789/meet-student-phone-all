@@ -1,4 +1,4 @@
-import './style.css'
+import "./style.css";
 
 //選單
 var burgerButton = document.getElementById("bb");
@@ -152,103 +152,104 @@ var less9 = document.getElementById("less9");
 var more10 = document.getElementById("more10");
 var moremi10 = document.getElementById("moremi10");
 var less10 = document.getElementById("less10");
+
 more1.addEventListener("click", function () {
-    more1.classList.add("hidden");
-    moremi1.classList.remove("hidden");
-    less1.classList.remove("hidden");
+  more1.classList.add("hidden");
+  moremi1.classList.remove("hidden");
+  less1.classList.remove("hidden");
 });
 less1.addEventListener("click", function () {
-    moremi1.classList.add("hidden");
-    less1.classList.add("hidden");
-    more1.classList.remove("hidden");
+  moremi1.classList.add("hidden");
+  less1.classList.add("hidden");
+  more1.classList.remove("hidden");
 });
 more2.addEventListener("click", function () {
-    more2.classList.add("hidden");
-    moremi2.classList.remove("hidden");
-    less2.classList.remove("hidden");
+  more2.classList.add("hidden");
+  moremi2.classList.remove("hidden");
+  less2.classList.remove("hidden");
 });
 less2.addEventListener("click", function () {
-    moremi2.classList.add("hidden");
-    less2.classList.add("hidden");
-    more2.classList.remove("hidden");
+  moremi2.classList.add("hidden");
+  less2.classList.add("hidden");
+  more2.classList.remove("hidden");
 });
 more3.addEventListener("click", function () {
-    more3.classList.add("hidden");
-    moremi3.classList.remove("hidden");
-    less3.classList.remove("hidden");
+  more3.classList.add("hidden");
+  moremi3.classList.remove("hidden");
+  less3.classList.remove("hidden");
 });
 less3.addEventListener("click", function () {
-    moremi3.classList.add("hidden");
-    less3.classList.add("hidden");
-    more3.classList.remove("hidden");
+  moremi3.classList.add("hidden");
+  less3.classList.add("hidden");
+  more3.classList.remove("hidden");
 });
 more4.addEventListener("click", function () {
-    more4.classList.add("hidden");
-    moremi4.classList.remove("hidden");
-    less4.classList.remove("hidden");
+  more4.classList.add("hidden");
+  moremi4.classList.remove("hidden");
+  less4.classList.remove("hidden");
 });
 less4.addEventListener("click", function () {
-    moremi4.classList.add("hidden");
-    less4.classList.add("hidden");
-    more4.classList.remove("hidden");
+  moremi4.classList.add("hidden");
+  less4.classList.add("hidden");
+  more4.classList.remove("hidden");
 });
 more5.addEventListener("click", function () {
-    more5.classList.add("hidden");
-    moremi5.classList.remove("hidden");
-    less5.classList.remove("hidden");
+  more5.classList.add("hidden");
+  moremi5.classList.remove("hidden");
+  less5.classList.remove("hidden");
 });
 less5.addEventListener("click", function () {
-    moremi5.classList.add("hidden");
-    less5.classList.add("hidden");
-    more5.classList.remove("hidden");
+  moremi5.classList.add("hidden");
+  less5.classList.add("hidden");
+  more5.classList.remove("hidden");
 });
 more6.addEventListener("click", function () {
-    more6.classList.add("hidden");
-    moremi6.classList.remove("hidden");
-    less6.classList.remove("hidden");
+  more6.classList.add("hidden");
+  moremi6.classList.remove("hidden");
+  less6.classList.remove("hidden");
 });
 less6.addEventListener("click", function () {
-    moremi6.classList.add("hidden");
-    less6.classList.add("hidden");
-    more6.classList.remove("hidden");
+  moremi6.classList.add("hidden");
+  less6.classList.add("hidden");
+  more6.classList.remove("hidden");
 });
 more7.addEventListener("click", function () {
-    more7.classList.add("hidden");
-    moremi7.classList.remove("hidden");
-    less7.classList.remove("hidden");
+  more7.classList.add("hidden");
+  moremi7.classList.remove("hidden");
+  less7.classList.remove("hidden");
 });
 less7.addEventListener("click", function () {
-    moremi7.classList.add("hidden");
-    less7.classList.add("hidden");
-    more7.classList.remove("hidden");
+  moremi7.classList.add("hidden");
+  less7.classList.add("hidden");
+  more7.classList.remove("hidden");
 });
 more8.addEventListener("click", function () {
-    more8.classList.add("hidden");
-    moremi8.classList.remove("hidden");
-    less8.classList.remove("hidden");
+  more8.classList.add("hidden");
+  moremi8.classList.remove("hidden");
+  less8.classList.remove("hidden");
 });
 less8.addEventListener("click", function () {
-    moremi8.classList.add("hidden");
-    less8.classList.add("hidden");
-    more8.classList.remove("hidden");
+  moremi8.classList.add("hidden");
+  less8.classList.add("hidden");
+  more8.classList.remove("hidden");
 });
 more9.addEventListener("click", function () {
-    more9.classList.add("hidden");
-    moremi9.classList.remove("hidden");
-    less9.classList.remove("hidden");
+  more9.classList.add("hidden");
+  moremi9.classList.remove("hidden");
+  less9.classList.remove("hidden");
 });
 less9.addEventListener("click", function () {
-    moremi9.classList.add("hidden");
-    less9.classList.add("hidden");
-    more9.classList.remove("hidden");
+  moremi9.classList.add("hidden");
+  less9.classList.add("hidden");
+  more9.classList.remove("hidden");
 });
 more10.addEventListener("click", function () {
-    more10.classList.add("hidden");
-    moremi10.classList.remove("hidden");
-    less10.classList.remove("hidden");
+  more10.classList.add("hidden");
+  moremi10.classList.remove("hidden");
+  less10.classList.remove("hidden");
 });
 less10.addEventListener("click", function () {
-    moremi10.classList.add("hidden");
-    less10.classList.add("hidden");
-    more10.classList.remove("hidden");
+  moremi10.classList.add("hidden");
+  less10.classList.add("hidden");
+  more10.classList.remove("hidden");
 });
