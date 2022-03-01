@@ -8,10 +8,47 @@ burgerButton.addEventListener("click", function () {
   burger.classList.toggle("translate-y-10");
   burger.classList.toggle("fixed");
 });
-var list = document.getElementsByClassName("list");
-list.addEventListener("click", function () {
-  burger.classList.add("-translate-y-72");
-  burger.classList.remove("translate-y-10");
+var list_a = document.getElementById("list-a");
+var list_b = document.getElementById("list-b");
+var list_c = document.getElementById("list-c");
+var list_d = document.getElementById("list-d");
+var list_f = document.getElementById("list-f");
+var list_g = document.getElementById("list-g");
+var list_h = document.getElementById("list-h");
+list_a.addEventListener("click", function () {
+  burger.classList.toggle("-translate-y-72");
+  burger.classList.toggle("translate-y-10");
+  burger.classList.toggle("fixed");
+});
+list_b.addEventListener("click", function () {
+  burger.classList.toggle("-translate-y-72");
+  burger.classList.toggle("translate-y-10");
+  burger.classList.toggle("fixed");
+});
+list_c.addEventListener("click", function () {
+  burger.classList.toggle("-translate-y-72");
+  burger.classList.toggle("translate-y-10");
+  burger.classList.toggle("fixed");
+});
+list_d.addEventListener("click", function () {
+  burger.classList.toggle("-translate-y-72");
+  burger.classList.toggle("translate-y-10");
+  burger.classList.toggle("fixed");
+});
+list_f.addEventListener("click", function () {
+  burger.classList.toggle("-translate-y-72");
+  burger.classList.toggle("translate-y-10");
+  burger.classList.toggle("fixed");
+});
+list_g.addEventListener("click", function () {
+  burger.classList.toggle("-translate-y-72");
+  burger.classList.toggle("translate-y-10");
+  burger.classList.toggle("fixed");
+});
+list_h.addEventListener("click", function () {
+  burger.classList.toggle("-translate-y-72");
+  burger.classList.toggle("translate-y-10");
+  burger.classList.toggle("fixed");
 });
 
 //信件燈箱
@@ -117,7 +154,7 @@ more_2.addEventListener("click", function () {
 jumpout_2.addEventListener("click", function () {
   jumpout_2.classList.toggle("hidden");
 });
-var more_3 = document.getElementById("more-3");
+var more_3 = document.getElementById("experience");
 var jumpout_3 = document.getElementById("jumpout-3");
 more_3.addEventListener("click", function () {
   jumpout_3.classList.toggle("hidden");
