@@ -8,6 +8,11 @@ burgerButton.addEventListener("click", function () {
   burger.classList.toggle("translate-y-10");
   burger.classList.toggle("fixed");
 });
+var list = document.getElementsByClassName("list");
+list.addEventListener("click", function () {
+  burger.classList.add("-translate-y-72");
+  burger.classList.remove("translate-y-10");
+});
 
 //信件燈箱
 var letter = document.getElementById("letter");
