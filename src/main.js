@@ -14,7 +14,6 @@ document.onclick = function (e) {
     burger.classList.remove("translate-y-10");
     burger.classList.remove("fixed");
     burger.classList.add("-translate-y-72");
-    console.log("active");
   }
 };
 // var list_a = document.getElementById("list-a");
