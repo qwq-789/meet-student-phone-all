@@ -8,48 +8,57 @@ burgerButton.addEventListener("click", function () {
   burger.classList.toggle("translate-y-10");
   burger.classList.toggle("fixed");
 });
-var list_a = document.getElementById("list-a");
-var list_b = document.getElementById("list-b");
-var list_c = document.getElementById("list-c");
-var list_d = document.getElementById("list-d");
-var list_f = document.getElementById("list-f");
-var list_g = document.getElementById("list-g");
-var list_h = document.getElementById("list-h");
-list_a.addEventListener("click", function () {
-  burger.classList.toggle("-translate-y-72");
-  burger.classList.toggle("translate-y-10");
-  burger.classList.toggle("fixed");
-});
-list_b.addEventListener("click", function () {
-  burger.classList.toggle("-translate-y-72");
-  burger.classList.toggle("translate-y-10");
-  burger.classList.toggle("fixed");
-});
-list_c.addEventListener("click", function () {
-  burger.classList.toggle("-translate-y-72");
-  burger.classList.toggle("translate-y-10");
-  burger.classList.toggle("fixed");
-});
-list_d.addEventListener("click", function () {
-  burger.classList.toggle("-translate-y-72");
-  burger.classList.toggle("translate-y-10");
-  burger.classList.toggle("fixed");
-});
-list_f.addEventListener("click", function () {
-  burger.classList.toggle("-translate-y-72");
-  burger.classList.toggle("translate-y-10");
-  burger.classList.toggle("fixed");
-});
-list_g.addEventListener("click", function () {
-  burger.classList.toggle("-translate-y-72");
-  burger.classList.toggle("translate-y-10");
-  burger.classList.toggle("fixed");
-});
-list_h.addEventListener("click", function () {
-  burger.classList.toggle("-translate-y-72");
-  burger.classList.toggle("translate-y-10");
-  burger.classList.toggle("fixed");
-});
+
+document.onclick = function (e) {
+  if (e.target.id !== "nav" && e.target.id !== "bb" && e.target.id !== "word" && e.target.id !== "burger" && e.target.id !== "list-a" && e.target.id !== "list-b" && e.target.id !== "list-c" && e.target.id !== "list-d" && e.target.id !== "list-f" && e.target.id !== "list-g" && e.target.id !== "list-h") {
+    burger.classList.remove("translate-y-10");
+    burger.classList.remove("fixed");
+    burger.classList.add("-translate-y-72");
+    console.log("active");
+  }
+};
+// var list_a = document.getElementById("list-a");
+// var list_b = document.getElementById("list-b");
+// var list_c = document.getElementById("list-c");
+// var list_d = document.getElementById("list-d");
+// var list_f = document.getElementById("list-f");
+// var list_g = document.getElementById("list-g");
+// var list_h = document.getElementById("list-h");
+// list_a.addEventListener("click", function () {
+//   burger.classList.toggle("-translate-y-72");
+//   burger.classList.toggle("translate-y-10");
+//   burger.classList.toggle("fixed");
+// });
+// list_b.addEventListener("click", function () {
+//   burger.classList.toggle("-translate-y-72");
+//   burger.classList.toggle("translate-y-10");
+//   burger.classList.toggle("fixed");
+// });
+// list_c.addEventListener("click", function () {
+//   burger.classList.toggle("-translate-y-72");
+//   burger.classList.toggle("translate-y-10");
+//   burger.classList.toggle("fixed");
+// });
+// list_d.addEventListener("click", function () {
+//   burger.classList.toggle("-translate-y-72");
+//   burger.classList.toggle("translate-y-10");
+//   burger.classList.toggle("fixed");
+// });
+// list_f.addEventListener("click", function () {
+//   burger.classList.toggle("-translate-y-72");
+//   burger.classList.toggle("translate-y-10");
+//   burger.classList.toggle("fixed");
+// });
+// list_g.addEventListener("click", function () {
+//   burger.classList.toggle("-translate-y-72");
+//   burger.classList.toggle("translate-y-10");
+//   burger.classList.toggle("fixed");
+// });
+// list_h.addEventListener("click", function () {
+//   burger.classList.toggle("-translate-y-72");
+//   burger.classList.toggle("translate-y-10");
+//   burger.classList.toggle("fixed");
+// });
 
 //信件燈箱
 var letter = document.getElementById("letter");
